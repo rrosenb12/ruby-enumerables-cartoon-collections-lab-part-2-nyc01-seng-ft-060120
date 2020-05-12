@@ -35,5 +35,6 @@ def find_valid_calls(planeteer_calls)
     if calls == valid_calls[count]
       return calls
     end
+    count += 1
   end
 end
