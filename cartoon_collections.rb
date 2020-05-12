@@ -33,5 +33,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |call|
     if call == valid_calls
       return call
-    |calls| calls == valid_calls
+    end
+  end
 end
