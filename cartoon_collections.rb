@@ -31,6 +31,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |calls|
     if calls.size < 4
       return true
+    else
+      return false
     end
   end
 end
