@@ -32,5 +32,5 @@ def find_valid_calls(planeteer_calls)
     if calls.size < 4
       return true
     end
-    
+  end
 end
